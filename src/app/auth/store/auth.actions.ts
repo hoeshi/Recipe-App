@@ -40,7 +40,7 @@ export class AuthenticateFail implements Action {
 export class SignupStart implements Action {
   readonly type = SIGNUP_START;
 
-  constructor(public payload: { email: string; password: string }) {}
+  constructor(public payload: { email: string; password: string }) {} 
 }
 
 export class ClearError implements Action {
